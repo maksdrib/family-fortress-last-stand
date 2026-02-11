@@ -1,0 +1,21 @@
+{
+    "armor_1_common": {
+        "gdevelop_object": "BaseArmor",
+        "title": "Кожаный доспех",
+        "stats": { "armor": 5 },
+        "upgrade": {
+            "next_id": "armor_1_uncommon",
+            "cost": 100,
+            "required_level": 5
+        }
+    },
+    "armor_1_uncommon": {
+        "gdevelop_object": "BaseArmor",
+        "title": "Укрепленный кожаный доспех",
+        "stats": { "armor": 12 },
+        "upgrade": {
+            "next_id": "armor_1_rare",
+            "cost": 250
+        }
+    }
+}
